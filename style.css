@@ -1,0 +1,435 @@
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+  width: 100%;
+  margin: 0;
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
+  float: left;
+  padding:15px 15px 15px 0px;
+  margin:0px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+h1 span {
+  color: #CF000F;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: white;
+}
+
+.header img {
+  width: 50px;
+  float: left;
+  padding: 5px;
+}
+
+.faces {
+  position:relative;
+  width:12.5%;
+  float: left;
+  margin-top:-4px;
+}
+
+.faces img {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.faces img.front:hover {
+  opacity:0;
+}
+
+.face1 {
+    -webkit-animation: faces 0.6s ease-in;
+    -moz-animation: faces 0.6s ease-in;
+    -o-animation: faces 0.6s ease-in;
+    animation: faces 0.6s ease-in;
+}
+
+.face2 {
+    -webkit-animation: faces 2s ease-in;
+    -moz-animation: faces 2s ease-in;
+    -o-animation: faces 2s ease-in;
+    animation: faces 2s ease-in;
+}
+
+.face3 {
+    -webkit-animation: faces 0.8s ease-in;
+    -moz-animation: faces 0.8s ease-in;
+    -o-animation: faces 0.8s ease-in;
+    animation: faces 0.8s ease-in;
+}
+
+.face4 {
+    -webkit-animation: faces 3s ease-in;
+    -moz-animation: faces 3s ease-in;
+    -o-animation: faces 3s ease-in;
+    animation: faces 3s ease-in;
+}
+
+.face5 {
+    -webkit-animation: faces 1s ease-in;
+    -moz-animation: faces 1s ease-in;
+    -o-animation: faces 1s ease-in;
+    animation: faces 1s ease-in;
+}
+
+.face6 {
+    -webkit-animation: faces 2.2s ease-in;
+    -moz-animation: faces 2.2s ease-in;
+    -o-animation: faces 2.2s ease-in;
+    animation: faces 2.2s ease-in;
+}
+
+.face7 {
+    -webkit-animation: faces 0.8s ease-in;
+    -moz-animation: faces 0.8s ease-in;
+    -o-animation: faces 0.8s ease-in;
+    animation: faces 0.8s ease-in;
+}
+
+.face8 {
+    -webkit-animation: faces 2.5s ease-in;
+    -moz-animation: faces 2.5s ease-in;
+    -o-animation: faces 2.5s ease-in;
+    animation: faces 2.5s ease-in;
+}
+
+.face9 {
+    -webkit-animation: faces 1.4s ease-in;
+    -moz-animation: faces 1.4s ease-in;
+    -o-animation: faces 1.4s ease-in;
+    animation: faces 1.4s ease-in;
+}
+
+.face10 {
+    -webkit-animation: faces 1.5s ease-in;
+    -moz-animation: faces 1.5s ease-in;
+    -o-animation: faces 1.5s ease-in;
+    animation: faces 1.5s ease-in;
+}
+
+.face11 {
+    -webkit-animation: faces 1.6s ease-in;
+    -moz-animation: faces 1.6s ease-in;
+    -o-animation: faces 1.6s ease-in;
+    animation: faces 1.6s ease-in;
+}
+
+.face12 {
+    -webkit-animation: faces 3.1s ease-in;
+    -moz-animation: faces 3.1s ease-in;
+    -o-animation: faces 3.1s ease-in;
+    animation: faces 3.1s ease-in;
+}
+
+.face13 {
+    -webkit-animation: faces 2.3s ease-in;
+    -moz-animation: faces 2.3s ease-in;
+    -o-animation: faces 2.3s ease-in;
+    animation: faces 2.3s ease-in;
+}
+
+.face14 {
+    -webkit-animation: faces 1.3s ease-in;
+    -moz-animation: faces 1.3s ease-in;
+    -o-animation: faces 1.3s ease-in;
+    animation: faces 1.3s ease-in;
+}
+
+.face15 {
+    -webkit-animation: faces 2s ease-in;
+    -moz-animation: faces 2s ease-in;
+    -o-animation: faces 2s ease-in;
+    animation: faces 2s ease-in;
+}
+
+.face16 {
+    -webkit-animation: faces 0.7s ease-in;
+    -moz-animation: faces 0.7s ease-in;
+    -o-animation: faces 0.7s ease-in;
+    animation: faces 0.7s ease-in;
+}
+
+.face17 {
+    -webkit-animation: faces 2.2s ease-in;
+    -moz-animation: faces 2.2s ease-in;
+    -o-animation: faces 2.2s ease-in;
+    animation: faces 2.2s ease-in;
+}
+
+.face18 {
+    -webkit-animation: faces 0.6s ease-in;
+    -moz-animation: faces 0.6s ease-in;
+    -o-animation: faces 0.6s ease-in;
+    animation: faces 0.6s ease-in;
+}
+
+.face19 {
+    -webkit-animation: faces 2.4s ease-in;
+    -moz-animation: faces 2.4s ease-in;
+    -o-animation: faces 2.4s ease-in;
+    animation: faces 2.4s ease-in;
+}
+
+.face20 {
+    -webkit-animation: faces 3s ease-in;
+    -moz-animation: faces 3s ease-in;
+    -o-animation: faces 3s ease-in;
+    animation: faces 3s ease-in;
+}
+
+.face21 {
+    -webkit-animation: faces 2.6s ease-in;
+    -moz-animation: faces 2.6s ease-in;
+    -o-animation: faces 2.6s ease-in;
+    animation: faces 2.6s ease-in;
+}
+
+.face22 {
+    -webkit-animation: faces 1.1s ease-in;
+    -moz-animation: faces 1.1s ease-in;
+    -o-animation: faces 1.1s ease-in;
+    animation: faces 1.1s ease-in;
+}
+
+.face23 {
+    -webkit-animation: faces 2.8s ease-in;
+    -moz-animation: faces 2.8s ease-in;
+    -o-animation: faces 2.8s ease-in;
+    animation: faces 2.8s ease-in;
+}
+
+.face24 {
+    -webkit-animation: faces 1.2s ease-in;
+    -moz-animation: faces 1.2s ease-in;
+    -o-animation: faces 1.2s ease-in;
+    animation: faces 1.2s ease-in;
+}
+
+.face25 {
+    -webkit-animation: faces 0.8s ease-in;
+    -moz-animation: faces 0.8s ease-in;
+    -o-animation: faces 0.8s ease-in;
+    animation: faces 0.8s ease-in;
+}
+
+.face26 {
+    -webkit-animation: faces 3.1s ease-in;
+    -moz-animation: faces 3.1s ease-in;
+    -o-animation: faces 3.1s ease-in;
+    animation: faces 3.1s ease-in;
+}
+
+.face27 {
+    -webkit-animation: faces 3.5s ease-in;
+    -moz-animation: faces 3.5s ease-in;
+    -o-animation: faces 3.5s ease-in;
+    animation: faces 3.5s ease-in;
+}
+
+.face28 {
+    -webkit-animation: faces 3.3s ease-in;
+    -moz-animation: faces 3.3s ease-in;
+    -o-animation: faces 3.3s ease-in;
+    animation: faces 3.3s ease-in;
+}
+
+.face29 {
+    -webkit-animation: faces 1.5s ease-in;
+    -moz-animation: faces 1.5s ease-in;
+    -o-animation: faces 1.5s ease-in;
+    animation: faces 1.5s ease-in;
+}
+
+.face30 {
+    -webkit-animation: faces 3s ease-in;
+    -moz-animation: faces 3s ease-in;
+    -o-animation: faces 3s ease-in;
+    animation: faces 3s ease-in;
+}
+
+.face31 {
+    -webkit-animation: faces 1.7s ease-in;
+    -moz-animation: faces 1.7s ease-in;
+    -o-animation: faces 1.7s ease-in;
+    animation: faces 1.7s ease-in;
+}
+
+.face32 {
+    -webkit-animation: faces 3.6s ease-in;
+    -moz-animation: faces 3.6s ease-in;
+    -o-animation: faces vs ease-in;
+    animation: faces 3.6s ease-in;
+}
+
+/* Animation */
+
+@-webkit-keyframes faces {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+img.back {
+  position: relative;
+}
+
+h3 {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+  padding: 5px;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+  padding: 20px 0 0 0;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: #CF000F;
+  font-size: 32px;
+}
+
+p {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 12px;
+  color: black;
+  padding: 0px 20px 0px 20px;
+}
+
+.bios {
+  width: 100%;
+  background: #F2F1EF;
+}
+
+.bios .namecard:nth-child(odd) {
+  background: white;
+}
+
+.namecard {
+  width: 100%;
+  float: left;
+  margin-top: -4px;
+  background: #F2F1EF;
+}
+
+.namecard img{
+  float: left;
+  width: 37.5%;
+  margin-right: 50px;
+
+}
+
+i {
+  font-size: 30px;
+  color: #999;
+  padding: 20px 20px 20px 0px;
+  transition: 0.5s;
+  padding: 10px;
+}
+
+i:hover {
+  color: #CF000F;
+}
+
+blockquote {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  display: block;
+  padding-top: 25px;
+  text-align: left;
+  letter-spacing: -1px;
+}
+
+blockquote::before {
+  content: '“';
+  font-family: Arial;
+  letter-spacing: -5px;
+  font-size: 150px;
+  font-weight: 700;
+  color: rgba(207,0,15,0.2);
+  vertical-align: middle;
+  }
+
+blockquote::after {
+  content: '”';
+  font-family: Arial;
+  letter-spacing: -5px;
+  font-size: 150px;
+  font-weight: 700;
+  color: rgba(207,0,15,0.2);
+  vertical-align: middle;
+}
+
+
+/* Responsive */
+
+/* Portrait tablet and small desktops */
+@media (max-width: 980px) {
+  blockquote {
+    display: none;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  .faces {
+    width: 25%;
+  }
+
+  .namecard img {
+    width: 50%;
+    margin-right: 23px;
+  }
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  h4 {
+    font-size: 20px;
+  }
+
+}
