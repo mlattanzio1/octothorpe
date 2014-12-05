@@ -338,6 +338,10 @@ p {
 .bios {
   width: 100%;
   background: #F2F1EF;
+  -webkit-animation: faces 5s ease-in;
+  -moz-animation: faces 5s ease-in;
+  -o-animation: faces 5s ease-in;
+  animation: faces 5s ease-in;
 }
 
 .bios .namecard:nth-child(odd) {
